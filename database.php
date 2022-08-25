@@ -8,58 +8,58 @@
             "releaseYear" => "1988"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://m.media-amazon.com/images/I/A1q7irGXhoL._AC_SL1500_.jpg",
+            "title" => "Fuori Dall'Hype Ringo Starr",
+            "author" => "Pinguini Tattici Nucleari",
+            "releaseYear" => "2020"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://legendarycover.it/wp-content/uploads/2020/11/mr-simpatia.jpg",
+            "title" => "Mr. Simpatia",
+            "author" => "Fabri Fibra",
+            "releaseYear" => "2004"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg",
+            "title" => "Random Access Memory",
+            "author" => "Daft Punk",
+            "releaseYear" => "2013"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://pure-music.co.uk/wp-content/uploads/2019/11/the-wall-album-cover-355x321.jpg",
+            "title" => "The Wall",
+            "author" => "Pink Floyd",
+            "releaseYear" => "1979"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://www.newsic.it/wp-content/uploads/2019/10/MARRA_cover-PERSONA_b-786x786.jpg",
+            "title" => "Persona",
+            "author" => "Marracash",
+            "releaseYear" => "2019"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://upload.wikimedia.org/wikipedia/en/a/a8/Creamwheelsoffire.jpeg",
+            "title" => "Wheels of Fire",
+            "author" => "Cream",
+            "releaseYear" => "1968"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png",
+            "title" => "Wish You Were Here",
+            "author" => "Pink Floyd",
+            "releaseYear" => "1975"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://upload.wikimedia.org/wikipedia/en/4/45/Billie_Eilish_-_Happier_Than_Ever.png",
+            "title" => "Happier Than Ever",
+            "author" => "Billie Eilish",
+            "releaseYear" => "2021"
         ],
         [
-            "coverImgSrc" => "",
-            "title" => "",
-            "author" => "",
-            "releaseYear" => ""
+            "coverImgSrc" => "https://miro.medium.com/focal/1200/1200/50/40/1*8FkvzbSdSJ4HNxtuZo5kLg.jpeg",
+            "title" => "The Dark Side of the Moon",
+            "author" => "Pink Floyd",
+            "releaseYear" => "1973"
         ],  
     ];
 
