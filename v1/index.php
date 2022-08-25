@@ -12,18 +12,23 @@
 
 </head>
 <body>
+
+    <?php include('../database.php') ?>
+
     <header>
 
     </header>
 
     <main>
         <div class="container d-flex justify-content-center flex-wrap">
+            <?php foreach($disks as $disk) { ?>
             <div class="disk-card text-center">
-                <img src="https://i.discogs.com/-G7kOMQ5xaYO0bhu6FnLr-SRjkP088PF9Fnbf3Skx4o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTE2/Mi0xNTMxNTE1NTc2/LTEwOTMuanBlZw.jpeg" alt="">
-                <h1>TITLE</h1>
-                <p>Author</p>
-                <p>Year</p>
+                <img src="<?php echo $disk['coverImgSrc']; ?>" alt="">
+                <h5><?php echo $disk['title']; ?></h5>
+                <p><?php echo $disk['author']; ?></p>
+                <p><?php echo $disk['releaseYear']; ?></p>
             </div>
+            <?php }; ?>
         </div>
     </main>
 </body>
