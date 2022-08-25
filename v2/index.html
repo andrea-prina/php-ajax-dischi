@@ -25,16 +25,13 @@
         </header>
         <main>
             <div class="container d-flex justify-content-center flex-wrap">
-                <!-- <div class="disk-card text-center">
-                    <img src="" alt="">
-                    <h5>TITLE</h5>
-                    <p>Author</p>
-                    <p>Year</p>
+                <div v-for="disk in diskList" class="disk-card text-center">
+                    <img :src="disk.coverImgSrc" :alt="disk.title">
+                    <h5>{{disk.title}}</h5>
+                    <p>{{disk.author}}</p>
+                    <p>{{disk.releaseYear}}</p>
                 </div>
-            </div> -->
-            <ul>
-                <li v-for="disk in diskList">{{ disk.title }}</li>
-            </ul>
+            </div>
         </main>
     </div>
 
