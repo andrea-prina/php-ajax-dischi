@@ -16,7 +16,7 @@
     <?php include('../database.php') ?>
 
     <header>
-
+        <img src="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Black-Logo.wine.svg" alt="spotify-logo" class="logo-img">
     </header>
 
     <main>
