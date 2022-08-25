@@ -23,7 +23,8 @@
         <div class="container d-flex justify-content-center flex-wrap">
             <?php foreach($disks as $disk) { ?>
             <div class="disk-card text-center">
-                <img src="<?php echo $disk['coverImgSrc']; ?>" alt="">
+                <img src="<?php echo $disk['coverImgSrc']; ?>"
+                alt="<?php echo $disk['title']; ?>">
                 <h5><?php echo $disk['title']; ?></h5>
                 <p><?php echo $disk['author']; ?></p>
                 <p><?php echo $disk['releaseYear']; ?></p>
