@@ -3,14 +3,18 @@ const app = new Vue(
     {
         el : "#app",
 
-        data : {},
+        data : {
+
+            diskList : {},
+
+        },
 
         methods : {
 
             getData : function(){
                 axios.get('http://localhost:8888/php-ajax-dischi/v2/controller.php')
                 .then((result) => {
-                    console.log(result.data[0]);   
+                    this.diskList = result.data;   
                 }).catch((err) => {
                     console.warn(err);
                 });
